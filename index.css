@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 5%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+header {
+}
+/* navigations */
+nav {
+	width: 100%;
+}
+
+li {
+	display: inline-block;
+	margin: 0 2% 0 12%;
+	border: none;
+	list-style-type: none;
+}
+
+button {
+	border: none;
+	width: 14vw;
+	height: 10.5vh;
+	border-radius: 20%;
+	margin-bottom: 38%;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.plan {
+	background-color: #ff754e;
+}
+
+.learn {
+	background-color: #7edbee;
+	margin-top: 5%;
+}
+
+.get {
+	background-color: #ffcd6a;
+	margin-left: -2%;
+}
+
+/*header*/
+
+.title {
+	font-size: 4.5rem;
+	font-family: 'Chelsea Market', cursive;
+	display: inline-block;
+	margin: -18% 10% 2% -2%;
+}
+
+.intro {
+	display: inline-block;
+	margin: auto 1.2% auto 4%;
+	height: 52vh;
+	/* border: 3px solid black; */
+}
+
+.intro-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5rem;
+	/* text-align: center; */
+	border: 3px solid red;
+	margin-top: -24%;
+	margin-left: 33%;
+	margin-bottom: -1%;
+}
+
+header img {
+	height: 44vh;
+	width: 22.2vw;
+	border-radius: 60%;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.tagline {
+	margin: -1% 6% 3% 6%;
+	padding-top: 3%;
+}
+
+.info {
+	margin-left: 8%;
+	text-align: center;
+	padding-top: 1%;
+}
+
+header p {
+	display: inline-block;
+	margin: auto 20%;
+}
+
+/* Content */
+
+.div-content {
+	background-color: #ddb9a3;
+	color: white;
+	height: 27vh;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.div-content p {
+	padding: 0.9%;
+}
+
+/*sections*/
+
+section {
+	margin: 2% 39%;
+	text-align: center;
+}
+
+section img {
+	height: 20vh;
+	width: 20vw;
+}
+
+section p {
+	margin: 3% auto 17% auto;
+}
+
+/*footer */
+
+#footer-banner-div {
+	height: 20vh;
+	overflow: hidden;
+}
+
+#footer-banner {
+}
+
+/*
+
+footer color #f9e7dd */
