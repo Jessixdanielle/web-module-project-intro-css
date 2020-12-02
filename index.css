@@ -66,8 +66,6 @@ button {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 1.5rem;
-	/* text-align: center; */
-	border: 3px solid red;
 	margin-top: -24%;
 	margin-left: 33%;
 	margin-bottom: -1%;
@@ -128,6 +126,12 @@ section p {
 	margin: 3% auto 17% auto;
 }
 
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
 /*footer */
 
 #footer-banner-div {
@@ -135,6 +139,10 @@ section p {
 	overflow: hidden;
 	margin: 8% -6% 2% -6%;
 	background-color: #f9e7dd;
+}
+
+#footer-banner {
+	width: 100%;
 }
 
 /*
