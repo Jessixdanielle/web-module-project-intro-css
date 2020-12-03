@@ -3,7 +3,7 @@
 }
 
 body {
-	margin: 0 5%;
+	margin: 0 4.5%;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -12,6 +12,7 @@ header {
 /* navigations */
 nav {
 	width: 100%;
+	margin-bottom: 1%;
 }
 
 li {
@@ -43,7 +44,7 @@ button {
 
 .get {
 	background-color: #ffcd6a;
-	margin-left: -2%;
+	padding-left: -5%;
 }
 
 /*header*/
@@ -57,7 +58,7 @@ button {
 
 .intro {
 	display: inline-block;
-	margin: auto 1.2% auto 4%;
+	margin: auto 1.2% 2% 4%;
 	height: 52vh;
 	/* border: 3px solid black; */
 }
@@ -72,8 +73,8 @@ button {
 }
 
 header img {
-	height: 44vh;
-	width: 22.2vw;
+	height: 46vh;
+	width: 23vw;
 	border-radius: 60%;
 	display: inline-block;
 	vertical-align: middle;
@@ -101,7 +102,7 @@ header p {
 .div-content {
 	background-color: #ddb9a3;
 	color: white;
-	height: 27vh;
+	height: 29vh;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -118,12 +119,13 @@ section {
 }
 
 section img {
-	height: 20vh;
-	width: 20vw;
+	height: 21vh;
+	width: 10vw;
+	margin: 2% auto;
 }
 
 section p {
-	margin: 3% auto 17% auto;
+	margin: 3% auto 15% auto;
 }
 
 a {
@@ -137,16 +139,34 @@ a:hover {
 }
 
 /*footer */
-
-#footer-banner-div {
-	height: 40vh;
-	overflow: hidden;
-	margin: 8% -6% 2% -6%;
+footer {
+	margin: 8% -10% 2% -10%;
 	background-color: #f9e7dd;
+}
+#footer-banner-div {
+	height: 42vh;
+	overflow: hidden;
+	margin: -1% -10% 2% -10%;
 }
 
 #footer-banner {
 	width: 100%;
+	height: 80vh;
+}
+
+footer button {
+	margin-left: 50%;
+	/* margin-right: -20%; */
+}
+
+footer .learn {
+	background-color: #7edbee;
+	margin-left: 30%;
+}
+
+.get {
+	background-color: #ffcd6a;
+	margin-left: 10%;
 }
 
 /*
